@@ -1,0 +1,128 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TerraLog</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: url('https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=1950&q=80') no-repeat center center fixed;
+      background-size: cover;
+      color: white;
+    }
+    .overlay {
+      background-color: rgba(0, 0, 0, 0.6);
+      min-height: 100vh;
+      padding: 20px;
+    }
+    h1 {
+      text-align: center;
+      font-size: 3em;
+      margin-bottom: 40px;
+    }
+    .tabs {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      margin-bottom: 30px;
+    }
+    .tab-button {
+      padding: 10px 20px;
+      font-size: 1.2em;
+      background-color: #444;
+      border: none;
+      cursor: pointer;
+      border-radius: 5px;
+      transition: background-color 0.3s ease;
+    }
+    .tab-button:hover, .tab-button.active {
+      background-color: #666;
+    }
+    .tab-content {
+      display: none;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+    .tab-content.active {
+      display: block;
+    }
+    details {
+      background: #222;
+      margin: 10px 0;
+      padding: 10px;
+      border-radius: 5px;
+    }
+    summary {
+      font-size: 1.1em;
+      cursor: pointer;
+    }
+  .auto-style1 {
+	font-family: Arial, Helvetica, sans-serif;
+}
+  </style>
+</head>
+<body>
+  <div class="overlay">
+    <h1 class="auto-style1">	TerraLog</h1>
+    <div class="tabs">
+      <button class="tab-button active" onclick="showTab('articles')">Articles</button>
+      <button class="tab-button" onclick="showTab('blogs')">Blogs</button>
+      <button class="tab-button" onclick="showTab('log')">Log of Rocks and Minerals</button>
+    </div>
+
+    <div id="articles" class="tab-content active">
+      <details><summary>The Geology of India - The Past, Present and Future</summary><p>Our journey starts 130 million years ago when the Indian plate broke off from the mainland of Gondwana, one of the two main land forms at that time. The Indian subcontinent drifted north across the Tethys Sea at a rate of 5cm/year. It is important to know that the subcontinent looked much different than what it would look in the next 42 million years, when a small piece of land, Madagascar would break out of the Indian mainland. For the next 22 million years, the plate would travel at the fastest rate ever recorded at a immense 20cm/year. There were many reasons why such rapid geological changes were seen. Firstly, when Madagascar broke away from the mainland India it created strong convection currents and secondly, the Indian plate was extremely light and thin becuse of which it was easy to move. It would take another 16 million years for the plate to collide with Eurasian plate. During this long expanse of time lasting over 80 million years India hosted many vivid life forms and ecosystems. It was also was the site for the formation of one of the greatest geological formations; the Himalayas and the Deccan plateau.  
+<p>Ecosystems and Animal life on the Indian subcontinent</p> 
+<p>Backtracking 130 million years (Early Cretaceous), India was a place of diverse biodiversity. With Dinosaurs like the Iguanodon, Spinosaurus and Carcharodontosaurus, roaming the land and Pterosaurs commonly seen in the skies. Even the seas were filled with Ammonites, plesiosaurs. Life was thriving. The biodiversity would reach its peak nearly 88 million years ago during the Late Cretaceous era. Now bigger dinosaurs such as the Tyrannosaurus rex, Velociraptor, Triceratops, and even the Rajasaurus ruled the subcontinent. However, about 66 million years ago during the Palaeocene-Eocene era a mass extinction wiped out all non-avian dinosaurs, opening space for mammals to take a bigger role in the environment and habitat. 
+</p>
+<p>Formations of Land forms</p>
+<p>The Indian subcontinent has many unique landforms shaped by geological forces over millions of years. One of the most important events was the movement of the Indian Plate, which broke away from Gondwana about 130 million years ago and moved northward. This movement caused massive changes. When India collided with the Eurasian Plate around 50 million years ago, it pushed up the land, forming the Himalayas. Another major landform is the Deccan Traps, located in central and western India. These were formed around 66 million years ago due to enormous volcanic eruptions. The lava from these eruptions spread out in layers, creating a wide, flat plateau made of dark volcanic rock called Basalt. These eruptions lasted for thousands of years and were so powerful that they may have contributed to the extinction of the dinosaurs. Today, the Deccan Plateau is rich in minerals and black soil, which is ideal for farming. Other landforms like the Thar Desert, the Western and Eastern Ghats, and the Indo-Gangetic plain were also shaped by the movement of tectonic plates, erosion, and sediment from rivers over time.
+</p>
+<p>Conclusion </p>
+
+In conclusion, the landforms of the Indian subcontinent tell a fascinating story of movement, collision, and change over millions of years. From the towering Himalayas to the wide Deccan Plateau, each feature has been shaped by natural forces deep within the Earth. The journey of the Indian Plate, the powerful volcanic eruptions of the Deccan Traps, and the slow shaping of rivers and weather have all played a part. Understanding this history helps us see our landscape not just as a part of today’s world, but as a result of a long and exciting past.
+
+</details>
+
+      <details><summary>A Timeline of Life – The story of the Earths biological history </summary><p>The story of how, once burning ball of fire ended up hosting the most diverse life forms, is a truly fascinating and yes, we are talking our earth. It all started 4.6 billion years ago when a vast gas cloud made of hydrogen collapsed onto itself forming the Sun. The gravity of the sun caused dust and other matter to form clumps. Around 4.5 billion these grew bigger, one of them would end up becoming the Earth we know today. During this time period the surface of earth was molten lava and the atmosphere made from poisonous gases like Carbon monoxide, Sulphur dioxide, Nitrous oxide, etc. For the next 500 million years the planet would slowly cool down. Another big change would be the appearance of water on earth by icy comets. It would take another 200 million years for the first living cell to appear in the oceans.</p>
+      <p>The Great Oxidation Event (GOE)</p>
+      <p>Around 3.8 billion years ago, Earth experienced a major change known as the Great Oxygenation Event (GOE). Before this event, Earth’s atmosphere had very little oxygen, and most life consisted of simple, single-celled organisms living in oceans. Some of these early microbes, especially cyanobacteria, developed the ability to perform photosynthesis — a process that uses sunlight to convert water and carbon dioxide into glucose, releasing oxygen as a byproduct. As these cyanobacteria spread across Earth’s shallow seas, they began producing large amounts of oxygen over millions of years. At first, this oxygen reacted with iron and other materials in the oceans, forming rust-like deposits. But eventually, it started building up in the atmosphere. This change was toxic to many anaerobic (oxygen-intolerant) microbes, causing a massive die-off. However, it also opened the door for a new kind of life: organisms that could use oxygen for more efficient energy production. This shift laid the foundation for complex life.</p>
+      <p>From Single-Celled to Multicellular Life in the Sea</p>
+      <p> The earliest life on Earth was made up of single-celled organisms like bacteria and archaea, which lived alone or in loose colonies. Over time — especially after the GOE — some cells began to cooperate more closely, forming simple multicellular structures. These early multicellular organisms may have formed by cells sticking together after division, or by one cell engulfing another in a helpful relationship (like the origin of mitochondria and chloroplasts through endosymbiosis).</p>
+      <p>By around 1.6 billion years ago, we see evidence of simple multicellular organisms, and by 600 to 800 million years ago, more complex multicellular life like algae, sponges, and early animal forms began to evolve in the oceans. Life in the sea offered stability: water protected cells from UV radiation and temperature changes, and nutrients were readily available. Multicellularity allowed organisms to specialize their cells for different functions — like movement, feeding, or reproduction — making them more efficient and adaptable.</p>
+      <p>The Dinosaurs</p>
+      <p>The dinosaurs were probably one of the greatest species to roam this earth, at least in terms of the duration they spent on earth. Dinosaurs ruled the land and seas for over 165 million years over three eras the Triassic, the Jurassic and Cretaceous. In comparison humans have only roamed the earth for about 300, 000 years. </p>
+      <p> This evolutionary step eventually led to the rise of marine animals, including jellyfish-like creatures, worms, and eventually the Cambrian Explosion (~540 million years ago), when many major animal groups rapidly appeared in Earth’s oceans.</p>
+      <p>Earth during the Triassic was dominated by a hot, dry climate and a single giant landmass called Pangaea. The first dinosaurs appeared — small, agile, bipedal reptiles like Eoraptor and Herrerasaurus. Other dominant creatures included large reptiles such as Postosuchus, which resembled crocodiles, and early marine reptiles like Ichthyosaurs and Nothosaurs. In the skies, the first pterosaurs took flight, while on land, the plant life was dominated by ferns and conifers.</p>
+      <p>During the Jurassic period Earth becoming more humid when Pangaea began to split into smaller continents. This led to more diverse ecosystems. Dinosaurs grew larger and more dominant. Famous species from this era include Brachiosaurus, Allosaurus, and Stegosaurus. In the oceans, marine reptiles like Plesiosaurs and Ichthyosaurs thrived, and ammonites, shelled creatures related to modern squids, became more common. One of the most important evolutionary steps occurred during this time - the appearance of the first birds, such as Archaeopteryx, which evolved from feathered dinosaurs.</p>
+      <p>The Cretaceous period was the final chapter of the dinosaurs. Dinosaurs reached their peak in diversity and size during this period. Iconic species such as Tyrannosaurus rex, Triceratops, Ankylosaurus, and Velociraptor lived during this time. Feathered dinosaurs were common, and birds evolved into more agile and capable flyers. In the oceans, giant marine reptiles like Mosasaurus and Plesiosaurs hunted prey. Unfortunately, this period ended in a massive extinction event about 66 million years ago, likely caused by a giant asteroid impact combined with intense volcanic activity. This event wiped out nearly all dinosaurs (except birds), most marine reptiles, and many other forms of life, making way for mammals to rise and dominate in the following age.</p>
+      </details>
+      
+  <details><summary>New Article</summary><p>Coming soon...</p></details>
+    </div>
+
+    <div id="blogs" class="tab-content">
+      <details><summary>My First Rock Hunt</summary><p>Coming soon...</p></details>
+      <details><summary>Behind the Minerals: Why I Love Geology</summary><p>Coming soon...</p></details>
+    </div>
+
+    <div id="log" class="tab-content">
+      <details><summary>Quartz Sample – Himachal</summary><p>Coming soon...</p></details>
+      <details><summary>Basalt Core – Western Ghats</summary><p>Coming soon...</p></details>
+    </div>
+  </div>
+
+  <script>
+    function showTab(tabId) {
+      const tabs = document.querySelectorAll('.tab-content');
+      const buttons = document.querySelectorAll('.tab-button');
+      tabs.forEach(tab => tab.classList.remove('active'));
+      buttons.forEach(btn => btn.classList.remove('active'));
+      document.getElementById(tabId).classList.add('active');
+      event.target.classList.add('active');
+    }
+  </script>
+</body>
+</html>
